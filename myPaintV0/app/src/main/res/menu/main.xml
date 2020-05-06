@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/import_img"
+        android:title="Import"
+        android:icon="@drawable/ic_import_image"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/save"
+        android:title="Save"
+        android:icon="@drawable/ic_save"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/normal"
+        android:title="Normal"
+        android:icon="@drawable/ic_crayon"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/gomme"
+        android:title="Effacer"
+        android:icon="@drawable/ic_ruber"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/color_palet"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_color_palet"
+        android:title="Palette de Couleur"/>
+    <item
+        android:id="@+id/color_pot"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_format_color_fill"
+        android:title="Pot de Painture"/>
+<!--
+    <item
+        android:id="@+id/emboss"
+        app:showAsAction="never"
+        android:title="Emboss"/>
+    -->
+
+    <item
+        android:id="@+id/blur"
+        android:icon="@drawable/ic_brush"
+        app:showAsAction="never"
+        android:title="Blur"/>
+
+    <item
+        android:id="@+id/clear"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_delete"
+        android:title="Clear"/>
+
+    <item
+        android:id="@+id/option"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_options"
+        android:title="Options"/>
+
+    <item
+        android:id="@+id/credit"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_credit"
+        android:title="Credits"/>
+
+
+
+
+</menu>
